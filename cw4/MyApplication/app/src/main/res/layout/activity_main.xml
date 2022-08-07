@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/among1us"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="120dp"
+        android:fontFamily="monospace"
+        android:gravity="center_horizontal"
+        android:text=" .Calculator."
+        android:textColor="#FFEB3B"
+        android:textSize="48sp" />
+
+    <EditText
+        android:id="@+id/num1"
+        android:layout_width="197dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#fff"
+        android:ems="10"
+        android:fontFamily="monospace"
+        android:hint="Number 1"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textColor="#FFEB3B"
+        android:textColorHint="#FFEB3B" />
+
+    <EditText
+        android:id="@+id/num2"
+        android:layout_width="197dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#fff"
+        android:ems="10"
+        android:fontFamily="monospace"
+        android:hint="Number 2"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textColor="#FFEB3B"
+        android:textColorHint="#FFEB3B" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="#8F8107"
+        android:fontFamily="monospace"
+        android:text="CALCULATE"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:fontFamily="monospace"
+        android:gravity="center_horizontal"
+        android:text="Total"
+        android:textColor="#FFEB3B"
+        android:textSize="48sp" />
+
+
+</LinearLayout>
